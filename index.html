@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css">
+    <link class="imagicon" rel="shortcut icon" href="img/logo-linkedin_578229-227.avif" type="image/x-icon">
+</head>
+<body>
+  <header>
+      <div class="headermain container">
+          <div class="header__left">
+              <a href="index.html" class="logo">
+                  <img src="img/logo-linkedin_578229-227.avif" alt="logo" class="logo__img">
+              </a>
+              <form class="search">
+                  <i class='search__icon bx bx-search'></i>
+                  <input class="barra-buscar" type="text" placeholder="Buscar">
+              </form>
+          </div>
+
+          <div class="header__right">
+              <nav class="navigation">
+                  <ul class="navigation__list">
+                      <li class="navega-menu">
+                          <a href="" class="links-menu active-link">
+                              <i class='menu bx bxs-home'></i>
+                              <img src="img/inicio.svg" alt="">
+                              <span class="item-navegacion">Inicio</span>
+                          </a>
+                      </li>
+
+                      <li class="navega-menu">
+                          <a href="" class="links-menu">
+                              <i class='menu bx bxs-group'></i>
+                              <img src="img/mired.svg" alt="red">
+                              <span class="item-navegacion">Mi red</span>
+                          </a>
+                      </li>
+
+                      <li class="navega-menu">
+                          <a href="" class="links-menu">
+                              <i class='menu bx bxs-briefcase'></i>
+                              <img src="img/empleos.svg" alt="">
+                              <span class="item-navegacion">Empleos</span>
+                          </a>
+                      </li>
+
+                      <li class="navega-menu">
+                          <a href="" class="links-menu">
+                              <i class='menu bx bxs-message'></i>
+                              <img src="img/mensaje.svg" alt="">
+                              <span class="item-navegacion">Mensajes</span>
+                          </a>
+                      </li>
+
+                      <li class="navega-menu">
+                          <a href="" class="links-menu">
+                              <i class='menu bx bxs-bell'></i>
+                              <img src="img/noti.svg" alt="">
+                              <span class="item-navegacion">Notificaciones</span>
+                          </a>
+                      </li>
+                  </ul>
+                  <div class="misop">
+                    <div class="perfil">
+                      <img class="miperf" src="img/miperfil.jpg" width="24">
+                      <label for="abrir-checkbox" class="toggle">
+                        <input type="checkbox" class="abrir">
+                        <span>Yo
+                          <img class="flecha" src="img/flecha-abajo.svg">
+                        </span>
+                      </label>
+                    </div>
+
+                    <div class="hamburguesa" id="perfilmenu">
+                      <div class="hamburdet">
+                        <div class="miuser">
+                          <img src="img/miperfil.jpg">
+                          <div>
+                            <h3>Dayana Rueda</h3>
+                            <p>Developer in process</p>
+                            <a href="profile.html">Ver perfil</a>
+                          </div>
+                        </div>
+                        <hr>
+                        <h2>Cuenta</h2>
+                        <a href="#" class="opcion-link">
+                          <p>Ajustes y privacidad</p>
+                          <span>></span>
+                        </a>
+                        <a href="#" class="opcion-link">
+                          <p>Ayuda</p>
+                          <span>></span>
+                        </a>
+                        <a href="#" class="opcion-link">
+                          <p>Idioma</p>
+                          <span>></span>
+                        </a>
+                        <hr>
+                        <h2>Gestionar</h2>
+                        <a href="#" class="opcion-link">
+                          <p>Publicaciones y actividad</p>
+                          <span>></span>
+                        </a>
+                        <a href="#" class="opcion-link">
+                          <p>Cuenta de anuncios de empleo</p>
+                          <span>></span>
+                        </a>
+                        <hr>
+                        <a href="#" class="opcion-link">
+                          <p>Cerrar sesión</p>
+                        </a>
+                    </div>
+                  </div>                    
+              </nav>
+          </div>
+      </div>
+  </header>
+  <div class="content-layout container">
+      <aside class="sidebar">
+          <div class="sidebar-profile-box">
+              <img class="imaghead" src="img/header.jpg" width="100%">
+              <div class="sidebar-miperfil">
+                  <img src="img/miperfil.jpg">
+                  <h1>Dayana Rueda</h1>
+                  <h3>Developer in process</h3>
+                  <p>Bucaramanga, Santander</p>
+              </div>
+              <div class="sidebar-exp">
+                  <a href="#"><img src="img/experiencia.svg">Experiencia</a>
+              </div>
+          </div>
+          <div class="sidebar-contac">
+            <div class="contac">
+              <div class="contac-text">
+                <h2 class="contac-title">Contactos</h2>
+                <p class="contac-subtitle">Amplía tu red</p>
+              </div>
+              <button class="contac-button" aria-label="Añadir contacto">
+                <img src="img/contac.svg" alt="">
+              </button>
+            </div>
+          </div>
+          <div class="sidebar-activity">
+              <div class="activity-items">
+                <img src="img/guardados.svg" alt="gg" sizes="24" srcset="">
+                <span>Elementos guardados</span>
+              </div>
+              <div class="activity-items">
+                <img src="img/grupos.svg" alt="">
+                <span>Grupos</span>
+              </div>
+              <div class="activity-items">
+                <img src="img/eventos.svg" alt="">
+                <span>Eventos</span>
+              </div>
+              <div class="discover-more-link">
+                  <a href="#">Mostrar mas</a>
+              </div>
+          </div>
+      </aside>
+      <main class="main">
+          <div class="create-post">
+              <div class="create-post-input">
+                  <img src="img/miperfil.jpg">
+                  <textarea rows="2" placeholder="Crear publicacion"></textarea>
+              </div>
+              <div class="publicacion-items">
+                  <li>
+                      <a href="#">
+                          <i class='bx bxs-camera'></i>
+                          <img src="img/multi.svg" alt="">
+                          <span>Contenido multimedia</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class='bx bxs-video'></i>
+                          <img src="img/eventos-publi.svg" alt="">
+                          <span>Evento</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class='bx bx-merge'></i>
+                          <img src="img/escribirarticulo.svg" alt="">
+                          <span>Escribir artículo</span>
+                      </a>
+                  </li>
+              </div>
+          </div>
+          <div class="post">
+              <div class="info-user">
+                  <img src="img/person2.jpg">
+                  <div>
+                      <h1>Luis Alberto Botero</h1>
+                      <small>200.987 seguidores</small>
+                      <small>5 horas</small>
+                  </div>
+              </div>
+              <p>
+                Las problemáticas ambientales actuales son resultado de la interacción entre el desarrollo humano y la naturaleza, generando graves consecuencias para el equilibrio ecológico del planeta. Una de las principales preocupaciones es el cambio climático, que se manifiesta a través del aumento global de las temperaturas, el derretimiento de los polos y el incremento en la frecuencia e intensidad de fenómenos meteorológicos extremos como huracanes, sequías e inundaciones. Este fenómeno está impulsado principalmente por las emisiones de gases de efecto invernadero, derivadas de la quema de combustibles fósiles, deforestación y actividades industriales.
+              </p>
+              <img src="img/post1.jpg" width="100%">
+              <div class="reacciones">
+                  <div>
+                      <div class="reaccion-img">
+                          <img src="img/emoticonlike.svg">
+                          <img src="img/emoticonheart.svg">
+                          <img src="img/emoticonclap.svg">
+                      </div>
+                      <span class="numero-r">234</span>
+                  </div>
+                  <div>
+                      <span>22 comentarios 10 veces compartido</span>
+                  </div>
+              </div>
+              <div class="post-activity">
+                  <div class="interaccion">
+                      <img src="img/like.svg">
+                      <span>Recomendar</span>
+                  </div>
+                  <div class="interaccion">
+                      <img src="img/coment.svg">
+                      <span>Comentar</span>
+                  </div>
+                  <div class="interaccion">
+                      <img src="img/compartir.svg">
+                      <span>Compartir</span>
+                  </div>
+                  <div class="interaccion">
+                      <img src="img/enviar.svg">
+                      <span>Enviar</span>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="post">
+            <div class="info-user">
+                <img src="img/person3.jpg">
+                <div>
+                    <h1>Luisina Perez</h1>
+                    <small>345.897 seguidores</small>
+                    <small>8 horas</small>
+                </div>
+            </div>
+            <p>
+              Otra problemática crítica es la pérdida de biodiversidad, que afecta gravemente los ecosistemas y su capacidad para sostener la vida. Las actividades humanas como la expansión agrícola, la urbanización y la sobreexplotación de los recursos naturales han llevado a la destrucción de hábitats, poniendo en peligro a miles de especies. Esto tiene un efecto en cadena, ya que la pérdida de especies afecta la estabilidad de los ecosistemas y disminuye los servicios ambientales que estos proveen, como la polinización, la regulación del agua y el control de plagas.
+            </p>
+            <img src="img/post2.jpg" width="100%">
+            <div class="reacciones">
+                <div>
+                    <div class="reaccion-img">
+                        <img src="img/emoticonlike.svg">
+                        <img src="img/emoticonheart.svg">
+                        <img src="img/emoticonclap.svg">
+                    </div>
+                    <span class="numero-r">423</span>
+                </div>
+                <div>
+                    <span>22 comentarios 10 veces compartido</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div class="interaccion">
+                    <img src="img/like.svg">
+                    <span>Recomendar</span>
+                </div>
+                <div class="interaccion">
+                    <img src="img/coment.svg">
+                    <span>Comentar</span>
+                </div>
+                <div class="interaccion">
+                    <img src="img/compartir.svg">
+                    <span>Compartir</span>
+                </div>
+                <div class="interaccion">
+                    <img src="img/enviar.svg">
+                    <span>Enviar</span>
+                </div>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="info-user">
+                <img src="img/person4.jpg">
+                <div>
+                    <h1>Caramelo de Chocolate</h1>
+                    <small>595.889 seguidores</small>
+                    <small>14 horas</small>
+                </div>
+            </div>
+            <p>
+              La contaminación es otro desafío ambiental urgente, y afecta tanto al aire como a los suelos y océanos. La contaminación atmosférica, provocada principalmente por las emisiones de vehículos y fábricas, contribuye a problemas de salud pública, como enfermedades respiratorias. Además, los océanos están sufriendo una grave contaminación por plásticos y productos químicos, que impactan gravemente la vida marina. En tierra, el uso excesivo de pesticidas y fertilizantes está degradando la calidad del suelo y afectando la cadena alimentaria.
+            </p>
+            <img src="img/post3.jpg" width="100%">
+            <div class="reacciones">
+                <div>
+                    <div class="reaccion-img">
+                        <img src="img/emoticonlike.svg">
+                        <img src="img/emoticonheart.svg">
+                        <img src="img/emoticonclap.svg">
+                    </div>
+                    <span class="numero-r">344</span>
+                </div>
+                <div>
+                    <span>22 comentarios 10 veces compartido</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div class="interaccion">
+                    <img src="img/like.svg">
+                    <span>Recomendar</span>
+                </div>
+                <div class="interaccion">
+                    <img src="img/coment.svg">
+                    <span>Comentar</span>
+                </div>
+                <div class="interaccion">
+                    <img src="img/compartir.svg">
+                    <span>Compartir</span>
+                </div>
+                <div class="interaccion">
+                    <img src="img/enviar.svg">
+                    <span>Enviar</span>
+                </div>
+            </div>
+          </div>
+
+          <div class="post">
+          <div class="info-user">
+              <img src="img/person5.jpg">
+              <div>
+                  <h1>Don Ramoncito</h1>
+                  <small>980.786 seguidores</small>
+                  <small>24 horas</small>
+              </div>
+          </div>
+          <p>
+            Ayudandog es un programa de apoyo a fundaciones de perros que la empresa Dog Chow ha creado con el objetivo de hacer donaciones de comida para animales sin hogar.
+            Esta es una propuesta que busca la participación de los ciudadanos a través de pequeños actos en pro del bienestar de los caninos.
+            El proyecto también está orientado a promover e incentivar una nutrición balanceada para los animales, por eso la empresa hará una donación anual de alimentos para perros. Este año con un aporte de 50 mil kilos destinados a fundaciones previamente seleccionadas por la organización.
+          </p>
+          <img src="img/post4.jpeg" width="100%">
+          <div class="reacciones">
+              <div>
+                  <div class="reaccion-img">
+                      <img src="img/emoticonlike.svg">
+                      <img src="img/emoticonheart.svg">
+                      <img src="img/emoticonclap.svg">
+                  </div>
+                  <span class="numero-r">80k</span>
+              </div>
+              <div>
+                  <span>22 comentarios 10 veces compartido</span>
+              </div>
+          </div>
+          <div class="post-activity">
+              <div class="interaccion">
+                  <img src="img/like.svg">
+                  <span>Recomendar</span>
+              </div>
+              <div class="interaccion">
+                  <img src="img/coment.svg">
+                  <span>Comentar</span>
+              </div>
+              <div class="interaccion">
+                  <img src="img/compartir.svg">
+                  <span>Compartir</span>
+              </div>
+              <div class="interaccion">
+                  <img src="img/enviar.svg">
+                  <span>Enviar</span>
+              </div>
+          </div>
+          </div>
+
+      </main>
+      <aside class="aside">
+          <div class="sidebar-anadir">
+              <img src="img/info-logo.svg" class="info-icon">
+              <h3>Añadir a tu feed</h3>
+              <a href="#">Miguel Garcia Monsalve</a>
+              <span>Programación JavaScript y Desarrollo Web</span>
+
+              <a href="#">Brais Mource</a>
+              <span>Freelance full-stack Dev | iOS & Android</span>
+
+              <a href="#">Fazt Web</a>
+              <span>Empresa | Desarrollo Software</span>
+
+              <a href="#">Dayana Rueda Gomez</a>
+              <span>Programación JavaScript y Desarrollo Web</span>
+
+              <a href="#">Google for Developers</a>
+              <span>Empresa | Tecnología, información e internet</span>
+
+              <a href="#" class="sugerencia">Ver todas las recomendaciones</a>
+          </div>
+          <div class="publicidad">
+              <div class="anuncio">
+                  <img src="img/anuncio.jpg">
+                  <p>Save the planet</p>
+                  <a href="#" class="boton-donar">Dona ya</a>
+              </div>
+
+              <div class="sidebar-links">
+                  <a href="#">Acerca de</a>
+                  <a href="#">Accesibilidad</a>
+                  <a href="#">Centro de Ayuda</a>
+                  <a href="#">Privacidad y Condiciones</a>
+                  <a href="#">Opciones de publicidad</a>
+                  <a href="#">Servicios empresariales</a>
+                  <a href="#">Más</a>
+                  <div class="linkelogo">
+                      <img src="img/copy.linke.svg">
+                      <p>LinkedIn Corporation © 2024</p>
+                  </div>
+              </div>
+          </div>
+      </aside>
+  </div>
+</body>
+</html>
